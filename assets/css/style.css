@@ -1,5 +1,5 @@
 * {
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -7,7 +7,7 @@
 
 header {
     
-    background-color: black;
+    background: linear-gradient(rgb(228, 116, 101), rgb(44, 7, 39));
     color:purple;
     display:flex;
     justify-content:center
@@ -16,6 +16,10 @@ header {
 
 .flexbox-1   {
     display:flex;
+    justify-content: flex-end;
+    
+    flex-direction: column;
+    order: 1;
     width: 150px;
     border: 3px dotted green;
     padding: 50px;
@@ -24,6 +28,7 @@ header {
 
 .flexbox-2 {
     display:flex;
+    order: 2;
     justify-content: center;
     width: 150px;
     border: 3px dotted green;
@@ -32,6 +37,7 @@ header {
 }
 .flexbox-3 {
     display:flex;
+    order: 3;
     justify-content: center;
     width: 150px;
     border: 3px dotted green;
@@ -40,14 +46,17 @@ header {
 }
 .flexbox-4 {
     display:flex;
+    order: 4;
     justify-content: center;
+    height: 150;
     width: 150px;
     border: 3px dotted green;
     padding: 50px;
-    margin: 20px;
+    margin: 40px;
 }
 .flexbox-5 {
     display:flex;
+    order: 5;
     justify-content: center;
     width: 150px;
     border: 3px dotted green;
@@ -56,6 +65,7 @@ header {
 }
 .flexbox-6 {
     display:flex;
+    order: 6;
     justify-content: center;
     width: 150px;
     border: 3px dotted green;
@@ -66,9 +76,14 @@ header {
  display: flex; 
  justify-content:center;  
  font-family: 'Times New Roman', Times, serif;
+ background-color: rgb(0, 0, 0);
  color: purple;
 }
 .center {
     display: flex;
     justify-content: center;
 }
+
+@media screen {
+    
+}media 
